@@ -1,0 +1,27 @@
+{
+  "name": "my-quasar-frontend",
+  "version": "0.0.1",
+  "description": "Quasar Frontend for Lab 1.1 (Git, Docker, Docker Compose)",
+  "productName": "Quasar Demo App",
+  "author": "BlackHibiki <Faewpop17@gmail.com>",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "quasar": "^2.16.0",
+    "vue": "^3.5.0",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "2.1.0",
+    "sass-embedded": "^1.80.0"
+  },
+  "engines": {
+    "node": "^28 || ^26 || ^24 || ^22 || ^20 || ^18",
+    "npm": ">= 6.13.4"
+  }
+}
